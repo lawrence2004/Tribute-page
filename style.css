@@ -1,0 +1,56 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  justify-content: center; /* Center horizontally */
+  display: flex; /* Use flexbox to center content */
+
+}
+
+.border {
+    border: 5px solid;
+    background-color: azure;
+    height: auto;
+    width:800px;
+}
+
+.content {
+    margin: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img {
+    border-radius: 100px;
+}
+
+.content h1 {
+    margin-left: 30px;
+    font-size: 27px;
+}
+
+.content h4 {
+    text-align: end;
+    margin-top: -20px;
+}
+
+.theory {
+    margin: 50px;
+}
+
+.heading {
+    margin-left: 40px;
+    font-size: 20px;
+}
+
+.heading p {
+    text-align: justify;
+}
+
+.bio {
+    margin-left: 40px;
+}
+
+.ending {
+    margin: 0px 20px 0px 0px;
+    text-align: end;
+}
